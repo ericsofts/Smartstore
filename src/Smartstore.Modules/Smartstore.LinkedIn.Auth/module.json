@@ -1,0 +1,11 @@
+{
+  "Group": "Security",
+  "SystemName": "Smartstore.LinkedIn.Auth",
+  "FriendlyName": "LinkedIn Authentication",
+  "Description": "Enables login with LinkedIn.",
+  "Version": "5.0",
+  "MinAppVersion": "5.0",
+  "Order": 1,
+  "AssemblyName": "Smartstore.LinkedIn.Auth.dll",
+  "ResourceRootKey": "Plugins.Smartstore.LinkedIn.Auth",
+} 

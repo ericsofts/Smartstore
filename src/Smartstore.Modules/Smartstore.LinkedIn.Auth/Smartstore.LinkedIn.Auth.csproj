@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+		<Product>Smartstore LinkedIn Authentication</Product>
+		<OutputPath>..\..\Smartstore.Web\Modules\Smartstore.LinkedIn.Auth</OutputPath>
+		<OutDir>$(OutputPath)</OutDir>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿<Language Name="English" IsDefault="true" IsRightToLeft="false">
+  <LocaleResource Name="Plugins.FriendlyName.Smartstore.LinkedIn.Auth" AppendRootKey="false">
+    <Value>LinkedIn Login</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Description.Smartstore.LinkedIn.Auth" AppendRootKey="false">
+    <Value>Adds LinkedIn authentication to the store.</Value>
+  </LocaleResource>
+  <LocaleResource Name="AdminInstruction">
+    <Value>
+      <![CDATA[
+			<p>How to set up LinkedIn authentication: </p>
+			<ul>
+				<li>Create a new app on <a href="https://www.linkedin.com/developers/apps/new">LinkedIn</a>  of type <b>Consumer</b>. </li>
+				<li>Enter their access data in the form below.</li>
+				<li>Enter the URL listed below under <b>My app &gt; LinkedIn Login &gt; Settings &gt; Valid OAuth Redirect URIs</b>.</li>
+				<li>Activate automatic registration in the shop's customer settings if you want to register externally authorized visitors automatically.</li>
+			</ul>
+			]]>
+    </Value>
+  </LocaleResource>
+  <LocaleResource Name="Login">
+    <Value>Sign in with LinkedIn</Value>
+  </LocaleResource>
+  <LocaleResource Name="ClientKeyIdentifier">
+    <Value>Client key identifier (Client ID)</Value>
+  </LocaleResource>
+  <LocaleResource Name="ClientKeyIdentifier.Hint">
+    <Value>Enter your client key identifier (Client ID) here.</Value>
+  </LocaleResource>
+  <LocaleResource Name="ClientSecret">
+    <Value>Client secret (Client Secret)</Value>
+  </LocaleResource>
+  <LocaleResource Name="ClientSecret.Hint">
+    <Value>Enter your client secret (Client Secret) here.</Value>
+  </LocaleResource>
+  <LocaleResource Name="RedirectUri">
+    <Value>OAuth Redirect URI</Value>
+  </LocaleResource>
+  <LocaleResource Name="RedirectUri.Hint">
+    <Value>The OAuth Redirect URI to be entered on LinkedIn.</Value>
+  </LocaleResource>
+</Language>
